@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PageBanner from '../components/Common/PageBanner';
 import BlogThreeGrid from '../components/Blog/BlogThreeGrid';
-import Footer from '../components/Layouts/Footer';
 
 class Blog extends Component {
   render() {
@@ -16,8 +15,6 @@ class Blog extends Component {
         />
 
         <BlogThreeGrid />
-
-        <Footer />
       </>
     );
   }

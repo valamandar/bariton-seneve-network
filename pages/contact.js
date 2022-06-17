@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PageBanner from '../components/Common/PageBanner';
 import ContactFormContent from '../components/Contact/ContactFormContent';
-import Footer from '../components/Layouts/Footer';
 
 class Contact extends Component {
   render() {
@@ -16,8 +15,6 @@ class Contact extends Component {
         />
 
         <ContactFormContent />
-
-        <Footer />
       </>
     );
   }

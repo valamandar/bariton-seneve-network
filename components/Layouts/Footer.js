@@ -37,22 +37,17 @@ class Footer extends Component {
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-footer-widget">
-                <h3>Quick Links</h3>
+                <h3>Pages</h3>
 
                 <ul className="quick-links-list">
                   <li>
                     <Link href="/about">
-                      <a>About Us</a>
+                      <a>A propos</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
-                      <a>Blog</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">
-                      <a>Contact</a>
+                    <Link href="/service-details">
+                      <a>Formations</a>
                     </Link>
                   </li>
                   <li>
@@ -61,8 +56,18 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pricing">
-                      <a>Pricing</a>
+                    <Link href="/blog">
+                      <a>Actualités</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/team">
+                      <a>Galerie</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      <a>Contact</a>
                     </Link>
                   </li>
                 </ul>

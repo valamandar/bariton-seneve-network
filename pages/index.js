@@ -8,7 +8,6 @@ import FeedbackSlider from '../components/Common/FeedbackSlider';
 import PricingCard from '../components/Common/PricingCard';
 import BlogPost from '../components/Common/BlogPost';
 import FreeTrialForm from '../components/Common/FreeTrialForm';
-import Footer from '../components/Layouts/Footer';
 
 class Index extends Component {
   render() {
@@ -23,7 +22,6 @@ class Index extends Component {
         <PricingCard />
         <BlogPost />
         <FreeTrialForm />
-        <Footer />
       </>
     );
   }

@@ -80,20 +80,16 @@ class Footer extends Component {
 
                 <ul className="footer-contact-list">
                   <li>
-                    <span>Address:</span>
+                    <span>Addresse :</span>
                     2750 Quadra Street <br /> Victoria, Canada
                   </li>
                   <li>
-                    <span>Email:</span>
+                    <span>Email :</span>
                     bariton@gmail.com
                   </li>
                   <li>
-                    <span>Phone:</span>
+                    <span>Téléphone :</span>
                     +44 587 154756
-                  </li>
-                  <li>
-                    <span>Fax:</span>
-                    +44 785 4578964
                   </li>
                 </ul>
               </div>
@@ -104,29 +100,11 @@ class Footer extends Component {
         <div className="copyright-area">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
                 <p>
-                  Copyright &copy;{currentYear} Bariton. All Rights Reserved{' '}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
-                  .
+                  Copyright &copy;{currentYear} Seneve Network. All Rights
+                  Reserved{' '}
                 </p>
-              </div>
-
-              <div className="col-lg-6 col-md-6 col-sm-6">
-                <ul>
-                  <li>
-                    <Link href="/privacy-policy">
-                      <a>Privacy Policy</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-conditions">
-                      <a>Terms & Conditions</a>
-                    </Link>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

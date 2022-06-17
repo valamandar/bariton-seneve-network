@@ -41,12 +41,12 @@ class Footer extends Component {
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/about">
+                    <Link href="/a-propos">
                       <a>A propos</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
+                    <Link href="/formations">
                       <a>Formations</a>
                     </Link>
                   </li>
@@ -56,12 +56,12 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/actualites">
                       <a>Actualités</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/team">
+                    <Link href="/galerie">
                       <a>Galerie</a>
                     </Link>
                   </li>

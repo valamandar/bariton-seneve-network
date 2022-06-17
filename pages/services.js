@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PageBanner from '../components/Common/PageBanner';
 import ServicesContent from '../components/Services/ServicesContent';
 import FeedbackSlider from '../components/Common/FeedbackSlider';
-import Footer from '../components/Layouts/Footer';
 
 class Services extends Component {
   render() {
@@ -19,8 +18,6 @@ class Services extends Component {
         <ServicesContent />
 
         <FeedbackSlider />
-
-        <Footer />
       </>
     );
   }

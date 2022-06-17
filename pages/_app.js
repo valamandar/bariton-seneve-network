@@ -13,6 +13,7 @@ import React from 'react';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 import Navbar from '../components/Layouts/Navbar';
+import Footer from '../components/Layouts/Footer';
 
 export default class MyApp extends App {
   // Preloader
@@ -48,6 +49,7 @@ export default class MyApp extends App {
 
         <Component {...pageProps} />
         <Navbar />
+        <Footer />
 
         {/* Preloader */}
         <Loader loading={this.state.loading} />

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PageBanner from '../components/Common/PageBanner';
 import TeamContent from '../components/Team/TeamContent';
 import FreeTrialForm from '../components/Common/FreeTrialForm';
-import Footer from '../components/Layouts/Footer';
 
 class Team extends Component {
   render() {
@@ -19,8 +18,6 @@ class Team extends Component {
         <TeamContent />
 
         <FreeTrialForm />
-
-        <Footer />
       </>
     );
   }

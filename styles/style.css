@@ -62,7 +62,18 @@ button {
   outline: 0 !important;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #212529;
   font-weight: bold;
   font-family: "Dosis", sans-serif;
@@ -2555,7 +2566,8 @@ Blog Details Area CSS
   background-color: #ff4800;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -2566,7 +2578,8 @@ blockquote, .blockquote {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: #212529;
   line-height: 1.6;
   margin-bottom: 0;
@@ -2574,10 +2587,12 @@ blockquote p, .blockquote p {
   font-weight: 600;
   font-size: 20px;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
   color: #efefef;
   content: "\f10d";
   position: absolute;
@@ -2598,7 +2613,8 @@ blockquote::before, .blockquote::before {
   font-size: 23px;
   font-weight: 700;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -2712,7 +2728,19 @@ blockquote::before, .blockquote::before {
   font-weight: 600;
   font-family: "Dosis", sans-serif;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type=date],
+.comments-area .comment-respond input[type=time],
+.comments-area .comment-respond input[type=datetime-local],
+.comments-area .comment-respond input[type=week],
+.comments-area .comment-respond input[type=month],
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url],
+.comments-area .comment-respond input[type=password],
+.comments-area .comment-respond input[type=search],
+.comments-area .comment-respond input[type=tel],
+.comments-area .comment-respond input[type=number],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #ffffff;
@@ -2721,7 +2749,19 @@ blockquote::before, .blockquote::before {
   outline: 0;
   transition: 0.5s;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
+.comments-area .comment-respond input[type=date]:focus,
+.comments-area .comment-respond input[type=time]:focus,
+.comments-area .comment-respond input[type=datetime-local]:focus,
+.comments-area .comment-respond input[type=week]:focus,
+.comments-area .comment-respond input[type=month]:focus,
+.comments-area .comment-respond input[type=text]:focus,
+.comments-area .comment-respond input[type=email]:focus,
+.comments-area .comment-respond input[type=url]:focus,
+.comments-area .comment-respond input[type=password]:focus,
+.comments-area .comment-respond input[type=search]:focus,
+.comments-area .comment-respond input[type=tel]:focus,
+.comments-area .comment-respond input[type=number]:focus,
+.comments-area .comment-respond textarea:focus {
   border-color: #ff4800;
 }
 .comments-area .comment-respond .comment-form-author {
@@ -3541,7 +3581,8 @@ FAQ Area CSS
   margin-left: -10px;
   margin-right: -10px;
 }
-.faq-contact-form form .row .col-lg-12, .faq-contact-form form .row .col-lg-6 {
+.faq-contact-form form .row .col-lg-12,
+.faq-contact-form form .row .col-lg-6 {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3771,7 +3812,8 @@ Contact Area CSS
   margin-left: -10px;
   margin-right: -10px;
 }
-.contact-form form .row .col-lg-12, .contact-form form .row .col-lg-6 {
+.contact-form form .row .col-lg-12,
+.contact-form form .row .col-lg-6 {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3895,6 +3937,7 @@ Footer Area CSS
 }
 .single-footer-widget .logo p {
   color: #ffffff;
+  padding-right: 15rem;
   margin-top: 18px;
   margin-bottom: 0;
 }
@@ -4192,17 +4235,25 @@ Go Top CSS
 }
 
 /* Text container */
-.text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6 {
+.text-container h1,
+.text-container h2,
+.text-container h3,
+.text-container h4,
+.text-container h5,
+.text-container h6 {
   margin-bottom: 15px;
 }
-.text-container ul, .text-container ol {
+.text-container ul,
+.text-container ol {
   padding-left: 17px;
 }
-.text-container ul li, .text-container ol li {
+.text-container ul li,
+.text-container ol li {
   line-height: 1.8;
   margin-bottom: 6px;
 }
-.text-container ul li:last-child, .text-container ol li:last-child {
+.text-container ul li:last-child,
+.text-container ol li:last-child {
   margin-bottom: 0;
 }
 
@@ -5521,7 +5572,8 @@ Projects Details Area CSS
 .projects-details-desc p {
   margin-bottom: 12px;
 }
-.projects-details-desc blockquote p, .projects-details-desc .blockquote p {
+.projects-details-desc blockquote p,
+.projects-details-desc .blockquote p {
   font-size: 25px;
 }
 
@@ -6465,7 +6517,7 @@ Checkout Area CSS
 .section-title.with-underline-text h2 b {
   display: inline-block;
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
   font-weight: bold;
 }
 .section-title.with-underline-text p {
@@ -6521,7 +6573,7 @@ Topbar Wrap Area CSS
   right: -15px;
   width: 1px;
   height: 20px;
-  border: 2px solid #E4E7FB;
+  border: 2px solid #e4e7fb;
 }
 .topbar-action-list li:last-child {
   margin-right: 0;
@@ -6548,7 +6600,7 @@ Navbar Area CSS
 =================================================*/
 .navbar-area-with-position-relative {
   position: relative;
-  background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+  background: linear-gradient(180deg, #f5fcfe 3.31%, #f6fcff 100%);
 }
 .navbar-area-with-position-relative.with-white-color {
   background: #ffffff;
@@ -6613,7 +6665,7 @@ AI Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+  background: linear-gradient(180deg, #f5fcfe 3.31%, #f6fcff 100%);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -6636,7 +6688,7 @@ AI Main Banner Area CSS
 }
 .ai-main-banner-content h1 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .ai-main-banner-content p {
   max-width: 575px;
@@ -6663,7 +6715,7 @@ AI Main Banner Area CSS
   cursor: pointer;
 }
 .ai-main-banner-content .banner-btn li .video-btn i {
-  background: linear-gradient(320.56deg, #074ECE 0%, #4D8CFF 100%);
+  background: linear-gradient(320.56deg, #074ece 0%, #4d8cff 100%);
   box-shadow: -3px 8px 20px rgba(67, 127, 236, 0.12);
   height: 40px;
   width: 40px;
@@ -6752,20 +6804,20 @@ Fun Facts Area CSS
   z-index: -1;
   width: 100%;
   height: 120px;
-  background: linear-gradient(180deg, #F5FCFE 3.31%, #F6FCFF 100%);
+  background: linear-gradient(180deg, #f5fcfe 3.31%, #f6fcff 100%);
 }
 .fun-facts-wrap-area.without-before-color::before {
   display: none;
 }
 
 .fun-facts-wrap-area-inner-box {
-  background: linear-gradient(90deg, #DD24ED 0%, #7609EA 97.61%);
+  background: linear-gradient(90deg, #dd24ed 0%, #7609ea 97.61%);
   box-shadow: -3px 8px 20px rgba(80, 80, 161, 0.07);
   padding-left: 100px;
   padding-right: 100px;
 }
 .fun-facts-wrap-area-inner-box.gradient-optional-color {
-  background: linear-gradient(90deg, #61967D 0%, #4A4493 100%);
+  background: linear-gradient(90deg, #61967d 0%, #4a4493 100%);
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -6819,7 +6871,7 @@ Top Featured Area CSS
 }
 .top-featured-content h2 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .top-featured-content p {
   margin-bottom: 0;
@@ -6830,7 +6882,7 @@ Top Featured Area CSS
 
 .top-featured-card {
   margin-bottom: 30px;
-  background: #F8FBFF;
+  background: #f8fbff;
   padding: 35px 30px;
   border-radius: 5px;
 }
@@ -6858,7 +6910,7 @@ Top Featured Area CSS
   left: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(0deg, #FFC2CC 0%, #FFF2F4 100%);
+  background: linear-gradient(0deg, #ffc2cc 0%, #fff2f4 100%);
   z-index: -1;
   transition: 0.5s;
   border-radius: 50%;
@@ -6915,7 +6967,7 @@ AI About Area CSS
 }
 .ai-about-content h3 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .ai-about-content p {
   margin-bottom: 0;
@@ -6943,7 +6995,7 @@ AI About Area CSS
 }
 .ai-about-content .about-list li i {
   font-size: 14px;
-  color: #03B5A9;
+  color: #03b5a9;
   position: absolute;
   left: 20px;
   top: 50%;
@@ -6986,13 +7038,13 @@ AI About Area CSS
 AI Services Area CSS
 =================================================*/
 .ai-services-area {
-  background: #F7FBFF;
+  background: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
 .ai-services-area.with-linear-gradient-color {
-  background: linear-gradient(269.49deg, #DD24ED 0.44%, #7609EA 99.58%);
+  background: linear-gradient(269.49deg, #dd24ed 0.44%, #7609ea 99.58%);
 }
 .ai-services-area.with-linear-gradient-color .section-title h2 {
   color: #ffffff;
@@ -7007,7 +7059,7 @@ AI Services Area CSS
   border-radius: 0;
 }
 .ai-services-area.with-linear-gradient-optional-color {
-  background: linear-gradient(90deg, #61967D 0%, #4A4493 100%);
+  background: linear-gradient(90deg, #61967d 0%, #4a4493 100%);
   position: relative;
   z-index: 1;
 }
@@ -7049,26 +7101,26 @@ AI Services Area CSS
   height: 90px;
   width: 90px;
   line-height: 90px;
-  background: linear-gradient(0deg, #FFC2CC 0%, #FFF2F4 100%);
+  background: linear-gradient(0deg, #ffc2cc 0%, #fff2f4 100%);
   text-align: center;
   border-radius: 50%;
   margin-bottom: 22px;
   transition: 0.5s;
 }
 .single-services-card .image-icon.bg-two {
-  background: linear-gradient(0deg, #FFBEF9 0%, #FFF1FF 100%);
+  background: linear-gradient(0deg, #ffbef9 0%, #fff1ff 100%);
 }
 .single-services-card .image-icon.bg-three {
-  background: linear-gradient(0deg, #FFE59A 0%, #FFFFD5 100%);
+  background: linear-gradient(0deg, #ffe59a 0%, #ffffd5 100%);
 }
 .single-services-card .image-icon.bg-four {
-  background: linear-gradient(0deg, #FFBEF9 0%, #FFF1FF 100%);
+  background: linear-gradient(0deg, #ffbef9 0%, #fff1ff 100%);
 }
 .single-services-card .image-icon.bg-five {
-  background: linear-gradient(0deg, #C3FFE8 0%, #F0FFF4 99.73%);
+  background: linear-gradient(0deg, #c3ffe8 0%, #f0fff4 99.73%);
 }
 .single-services-card .image-icon.bg-six {
-  background: linear-gradient(0deg, #ADDCFF 0%, #EAF6FF 50.28%, #EAF6FF 100%);
+  background: linear-gradient(0deg, #addcff 0%, #eaf6ff 50.28%, #eaf6ff 100%);
 }
 .single-services-card h3 {
   font-size: 23.8px;
@@ -7076,11 +7128,11 @@ AI Services Area CSS
   margin-bottom: 15.5px;
 }
 .single-services-card .read-btn {
-  background: #FF4800;
+  background: #ff4800;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 1px solid #FF4800;
+  border-bottom: 1px solid #ff4800;
   font-size: 15px;
   font-weight: 600;
 }
@@ -7115,7 +7167,7 @@ Computer Vision AI Area CSS
 }
 .computer-vision-ai-content h3 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .computer-vision-ai-content p {
   margin-bottom: 0;
@@ -7132,7 +7184,7 @@ Computer Vision AI Area CSS
   height: 55px;
   width: 55px;
   line-height: 55px;
-  background: #F3F9FF;
+  background: #f3f9ff;
   text-align: center;
   border-radius: 50%;
   transition: 0.5s;
@@ -7158,13 +7210,13 @@ Computer Vision AI Area CSS
 AI Pricing Area CSS
 =================================================*/
 .ai-pricing-area {
-  background-color: #F7FBFF;
+  background-color: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
 .ai-pricing-area.with-linear-gradient-color {
-  background: linear-gradient(270deg, #5151B7 0%, #A02B7E 100%);
+  background: linear-gradient(270deg, #5151b7 0%, #a02b7e 100%);
 }
 
 .ai-pricing-card {
@@ -7218,7 +7270,7 @@ AI Pricing Area CSS
   margin-bottom: 0;
 }
 .ai-pricing-card .pricing-features li i {
-  color: #03B5A9;
+  color: #03b5a9;
   font-size: 14px;
   position: absolute;
   left: 0;
@@ -7229,7 +7281,7 @@ AI Pricing Area CSS
   font-size: 12px;
 }
 .ai-pricing-card .pricing-features li i.fa-times {
-  color: #E8346F;
+  color: #e8346f;
 }
 .ai-pricing-card .pricing-btn {
   margin-top: 30px;
@@ -7247,7 +7299,7 @@ AI Pricing Area CSS
 }
 .ai-pricing-card .tag {
   display: inline-block;
-  background: linear-gradient(270deg, #FA887D 0%, #FE6088 100%);
+  background: linear-gradient(270deg, #fa887d 0%, #fe6088 100%);
   padding: 8px 25px;
   border-radius: 30px;
   color: #ffffff;
@@ -7418,7 +7470,7 @@ AI Blog Area CSS
 AI Subscribe Area CSS
 =================================================*/
 .ai-subscribe-area {
-  background: #F7FBFF;
+  background: #f7fbff;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -7505,7 +7557,7 @@ AI Subscribe Area CSS
   border-radius: 2px;
   transform: scale(1);
   vertical-align: middle;
-  border: 1px solid #437FEC;
+  border: 1px solid #437fec;
   transition: all 0.2s ease;
   transition: 0.5s;
 }
@@ -7575,7 +7627,7 @@ ML Main Banner Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: #F5FCFE;
+  background: #f5fcfe;
   padding-top: 70px;
   padding-bottom: 120px;
 }
@@ -7584,7 +7636,7 @@ ML Main Banner Area CSS
   padding-right: 30px;
 }
 .ml-main-banner-area.with-linear-gradient-color {
-  background: linear-gradient(0deg, #EB8A6F 0%, #E33879 100%);
+  background: linear-gradient(0deg, #eb8a6f 0%, #e33879 100%);
   padding-top: 120px;
   padding-bottom: 230px;
 }
@@ -7603,7 +7655,7 @@ ML Main Banner Area CSS
   margin-bottom: 22px;
 }
 .ml-main-banner-content .sub-title b {
-  background: #738BAE;
+  background: #738bae;
   padding: 2px 12px;
   border-radius: 30px;
   color: #ffffff;
@@ -7617,7 +7669,7 @@ ML Main Banner Area CSS
 }
 .ml-main-banner-content h1 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .ml-main-banner-content p {
   margin-bottom: 0;
@@ -7690,7 +7742,7 @@ ML Main Banner Area CSS
   cursor: pointer;
 }
 .ml-main-banner-content .banner-btn li .video-btn i {
-  background: linear-gradient(320.56deg, #074ECE 0%, #4D8CFF 100%);
+  background: linear-gradient(320.56deg, #074ece 0%, #4d8cff 100%);
   box-shadow: -3px 8px 20px rgba(67, 127, 236, 0.12);
   height: 40px;
   width: 40px;
@@ -7703,7 +7755,7 @@ ML Main Banner Area CSS
   margin-right: 8px;
 }
 .ml-main-banner-content .banner-btn li .btn-primary {
-  background: #561A8A;
+  background: #561a8a;
   box-shadow: -3px 8px 20px rgba(255, 72, 0, 0.13);
 }
 .ml-main-banner-content.with-white-color-text h1 {
@@ -7727,7 +7779,7 @@ ML Main Banner Area CSS
   height: 530px;
   left: 80px;
   top: 25px;
-  background: linear-gradient(109.28deg, #FE6D5B 11.53%, #FE9C42 89.63%);
+  background: linear-gradient(109.28deg, #fe6d5b 11.53%, #fe9c42 89.63%);
   border-radius: 50%;
   z-index: -1;
   animation-name: rotateMe;
@@ -7758,7 +7810,7 @@ ML Main Banner Area CSS
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #03B5A9;
+  background: #03b5a9;
   box-shadow: 0px 4px 10px rgba(3, 181, 169, 0.12);
   text-align: center;
   border-radius: 50px;
@@ -7829,7 +7881,7 @@ ML Main Banner Area CSS
 Business Solution Area CSS
 =================================================*/
 .business-solution-area {
-  background-color: #F7FBFF;
+  background-color: #f7fbff;
 }
 
 .business-solution-content h3 {
@@ -7839,7 +7891,7 @@ Business Solution Area CSS
 }
 .business-solution-content h3 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .business-solution-content p {
   margin-bottom: 0;
@@ -7867,7 +7919,7 @@ Business Solution Area CSS
 }
 .business-solution-content .solution-list li i {
   font-size: 14px;
-  color: #03B5A9;
+  color: #03b5a9;
   position: absolute;
   left: 20px;
   top: 50%;
@@ -7909,7 +7961,7 @@ Business Solution Area CSS
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #03B5A9;
+  background: #03b5a9;
   box-shadow: 0px 4px 10px rgba(3, 181, 169, 0.12);
   text-align: center;
   border-radius: 50px;
@@ -7927,7 +7979,7 @@ Business Solution Area CSS
 Unique Testimonials Area CSS
 =================================================*/
 .unique-testimonials-box {
-  background: #F7FBFF;
+  background: #f7fbff;
   padding: 70px 100px 0;
   border-radius: 5px;
   text-align: center;
@@ -7963,7 +8015,7 @@ Unique Testimonials Area CSS
   right: 0;
   margin: auto;
   bottom: 0;
-  background: #437FEC;
+  background: #437fec;
 }
 .unique-testimonials-box .client-info {
   margin-top: 25px;
@@ -8074,7 +8126,7 @@ Creativity Area CSS
 }
 .creativity-content h3 span {
   text-decoration-line: underline;
-  color: #437FEC;
+  color: #437fec;
 }
 .creativity-content p {
   margin-bottom: 0;
@@ -8112,12 +8164,12 @@ Creativity Area CSS
   border: 1px solid #ff4800;
 }
 .creativity-content .skill-bar .progress-content-outter {
-  background-color: #E3E9FF;
+  background-color: #e3e9ff;
   border-radius: 50px;
 }
 .creativity-content .skill-bar .progress-content {
   height: 5px;
-  background: linear-gradient(90deg, #FFA68D 0%, #FD3A84 100%);
+  background: linear-gradient(90deg, #ffa68d 0%, #fd3a84 100%);
   border-radius: 50px;
   width: 0%;
 }
@@ -8178,7 +8230,7 @@ Creativity Area CSS
 AI Team Area CSS
 =================================================*/
 .ai-team-area {
-  background: #F5FCFF;
+  background: #f5fcff;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -8203,7 +8255,7 @@ AI Team Area CSS
   z-index: 2;
   text-decoration: none;
   padding: 10px 12px;
-  background: linear-gradient(270deg, #FA887D 0%, #FE6088 100%);
+  background: linear-gradient(270deg, #fa887d 0%, #fe6088 100%);
   border-radius: 35px;
   opacity: 0;
   visibility: hidden;
@@ -8231,7 +8283,7 @@ AI Team Area CSS
   right: 0;
   top: 0;
   margin: auto;
-  background: #437FEC;
+  background: #437fec;
   border-radius: 15px;
   height: 3.5px;
   width: 35px;
@@ -8289,7 +8341,7 @@ AI Team Area CSS
 Footer Wrap Area CSS
 =================================================*/
 .footer-wrap-area {
-  background-color: #1A1F56;
+  background-color: #1a1f56;
   position: relative;
   z-index: 1;
   overflow: hidden;
